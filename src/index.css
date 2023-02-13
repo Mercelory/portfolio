@@ -4,13 +4,23 @@
 
 body{
   font-family: 'Nunito', sans-serif !important;
-  background: linear-gradient(112.9deg, #AEF0FF 0%, #E5D3FF 100%);
+  /* background: linear-gradient(112.9deg, #AEF0FF 0%, #E5D3FF 100%); */
   color: #333333;
-  scroll-behavior: smooth;
+ 
 }
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  scroll-snap-align: mandatory;
+  
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
 }
