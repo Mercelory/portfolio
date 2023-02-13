@@ -133,8 +133,8 @@ function App() {
         </div>
     <motion.div custom={2} variants={textAnimation} className='footer fixed inset-x-0 bottom-0 p-5 m-auto items-center justify-center flex'>
       <div className='md:hidden'>
-      <button onClick={()=>toggleTab(1)}  className={toggleState === 1  ? 'hidden' : null}><BsMicrosoft className='h-8 w-8'/></button></div>
-    <div className={toggleState===1 ? 'footer-elements flex justify-between items-center font-bold bg-slate-800/25 rounded-xl px-3 absolute bottom-12 h-12 w-[80%] flex-wrap' : 'hidden md:flex md:justify-between md:w-1/2'}>
+      <button onClick={()=>toggleTab(1)}  className={toggleState === 1  ? 'hidden' : null}><BsMicrosoft className='h-8 w-8 fill-blue-500'/></button></div>
+    <div className={toggleState===1 ? 'footer-elements flex justify-between items-center font-bold shadow-lg shadow-zinc-500/50 rounded-3xl px-3 absolute bottom-12 h-12 w-[80%] flex-wrap' : 'hidden md:flex md:justify-between md:w-1/2'}>
       <motion.button custom={3} variants={textAnimation} className='' onClick={handleClickScrollToHome}>
         Home
       </motion.button>
@@ -149,7 +149,7 @@ function App() {
       </motion.button>
 
     </div>
-    {toggleState === 1 ? <motion.button variant={textAnimation} custom = {3 } onClick={() => toggleTab(0)}><BsX  className='w-12 h-12 translate-y-4 '/></motion.button> : null}
+    {toggleState === 1 ? <motion.button variant={textAnimation} custom = {3 } onClick={() => toggleTab(0)}><BsX  className='w-12 h-12 translate-y-4 fill-blue-500'/></motion.button> : null}
   </motion.div>
   
   </motion.section>
