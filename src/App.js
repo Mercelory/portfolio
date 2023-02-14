@@ -16,9 +16,6 @@ import {BsMouse,BsMicrosoft,BsX} from 'react-icons/bs'
 import CV from './CV.pdf'
 import { motion } from "framer-motion"
 import React,{useRef, useState} from 'react'
-import { ParallaxProvider,Parallax,ParallaxBanner,useParallax } from 'react-scroll-parallax'
-import { HideScroll,HideBetween,HideDuring } from 'react-hide-on-scroll'
-
 
 function App() {
   const scrollRef = useRef(null)
@@ -61,7 +58,7 @@ function App() {
     <motion.section
     initial='hidden'
     whileInView='visible'>
-          <div className=' snap-mandatory snap-y bg-fixed scroll-smooth w-full m-auto box-border h-screen overflow-hidden overflow-y-scroll bg-gradient-to-r from-blue-300 to-purple-300'>
+          <div className='snap-start snap-mandatory snap-y scroll-smooth w-full m-auto box-border h-screen overflow-hidden overflow-y-scroll bg-gradient-to-r from-blue-300 to-purple-300 bg-cover bg-center bg-fixed'>
       <motion.div  custom={1} variants={textAnimation} id = "Home" className=' flex justify-center items-center h-screen snap-start'>
         <div  className='flex flex-col text-center h-24 overflow-hidden'>
         <h1 speed={-10} className='text-6xl font-bold'>Hello?</h1>
@@ -70,7 +67,7 @@ function App() {
       </motion.div>
 
       <motion.div custom={2} variants={textAnimation}>
-      <div  id = "About" className='flex flex-col justify-center items-center h-screen snap-start'>
+      <div  id = "About" className='flex flex-col justify-center items-center h-screen snap-always snap-start'>
         <div className='contacts flex justify-center items-center'>
           <div className={style.CV}>
             <a href ={CV} download target="_blank" className='text-4xl font-bold'>CV</a>
@@ -132,24 +129,25 @@ function App() {
         </motion.div>
         </div>
     <motion.div custom={2} variants={textAnimation} className='footer fixed inset-x-0 bottom-0 p-5 m-auto items-center justify-center flex'>
-      <div className='md:hidden'>
-      <button onClick={()=>toggleTab(1)}  className={toggleState === 1  ? 'hidden' : null}><BsMicrosoft className='h-8 w-8 fill-blue-500'/></button></div>
-    <div className={toggleState===1 ? 'footer-elements flex justify-between items-center font-bold shadow-lg shadow-zinc-500/50 rounded-3xl px-3 absolute bottom-12 h-12 w-[80%] flex-wrap' : 'hidden md:flex md:justify-between md:w-1/2'}>
-      <motion.button custom={3} variants={textAnimation} className='' onClick={handleClickScrollToHome}>
-        Home
+    <div className='footer-elements flex justify-between items-center font-bold px-3 absolute bottom-12 h-12 w-36 flex-wrap'>
+      <motion.button
+       custom={3}
+        variants={textAnimation}
+         className=''
+          onClick={handleClickScrollToHome}>
+        <div className='w-3 h-3 rounded-full bg-black/25 ease-in-out duration-300 active:bg-black/75 active:scale-[2] hover:scale-[2] hover:bg-black/75'/>
       </motion.button>
       <motion.button custom={4} variants={textAnimation} className='footer-element' onClick={handleClickScrollToAbout}>
-        About
+      <div className='w-3 h-3 rounded-full bg-black/25 ease-in-out duration-300 active:bg-black/75 active:scale-[2] hover:scale-[2] hover:bg-black/75'/>
       </motion.button>
       <motion.button custom={5} variants={textAnimation} className='footer-element'onClick={handleClickScrollToSkills}>
-        Skills
+      <div className='w-3 h-3 rounded-full bg-black/25  ease-in-out duration-300 active:bg-black/75 active:scale-[2] hover:scale-[2] hover:bg-black/75'/>
       </motion.button>
       <motion.button custom={6} variants={textAnimation} className='footer-element'onClick={handleClickScrollToProjects}>
-        Projects
+      <div className='w-3 h-3 rounded-full bg-black/25 ease-in-out duration-300 active:bg-black/75 active:scale-[2] hover:scale-[2] hover:bg-black/75'/>
       </motion.button>
 
     </div>
-    {toggleState === 1 ? <motion.button variant={textAnimation} custom = {3 } onClick={() => toggleTab(0)}><BsX  className='w-12 h-12 translate-y-4 fill-blue-500'/></motion.button> : null}
   </motion.div>
   
   </motion.section>
