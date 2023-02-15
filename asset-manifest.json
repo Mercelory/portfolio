@@ -1,28 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.42718f3f.css",
-    "main.js": "/portfolio/static/js/main.17eb4c1f.js",
+    "main.css": "/portfolio/static/css/main.9ac9101b.css",
+    "main.js": "/portfolio/static/js/main.3541b368.js",
     "static/media/CV.pdf": "/portfolio/static/media/CV.0dfe227f41f93907c2b5.pdf",
+    "static/media/Weather-app.png": "/portfolio/static/media/Weather-app.39a3699c01f52853df83.png",
+    "static/media/To-do-app.png": "/portfolio/static/media/To-do-app.7851695e7dc0082734b3.png",
     "static/media/sass-original 1.svg": "/portfolio/static/media/sass-original 1.fda619e5d2745325b7a68291f036d631.svg",
     "static/media/react-original 1.svg": "/portfolio/static/media/react-original 1.dc5677a62b233ac18b4b1a8c09bca377.svg",
-    "static/media/weather.svg": "/portfolio/static/media/weather.45d2377fc9071428da7ba69e71b15644.svg",
-    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.5d973aa0251cb85c5d8631d3d308645c.svg",
     "static/media/javascript-plain 1.svg": "/portfolio/static/media/javascript-plain 1.1fc2e1334ebcb67cf984e9cb040a6d8a.svg",
     "static/media/git-original 1.svg": "/portfolio/static/media/git-original 1.aafa3b5cd39c98a9b35f4aea8e042a6a.svg",
-    "static/media/github.svg": "/portfolio/static/media/github.6fbb222082a0d95730bbd7354b98472d.svg",
     "index.html": "/portfolio/index.html",
     "static/media/tailwindcss-plain 1.svg": "/portfolio/static/media/tailwindcss-plain 1.107afef4391041dea8731dcf7a2569a2.svg",
-    "static/media/gmail.svg": "/portfolio/static/media/gmail.7d78f43fa5b70878b4498d9439d6f897.svg",
     "static/media/css3-plain 1.svg": "/portfolio/static/media/css3-plain 1.cf31edeab8510989d9d97f97f43d55c4.svg",
     "static/media/html5-plain 1.svg": "/portfolio/static/media/html5-plain 1.76ae4ba5ea793662f7107c9d650cec33.svg",
     "static/media/materialui-original 1.svg": "/portfolio/static/media/materialui-original 1.b4a9a659b3ec708b445a6763a079f5c1.svg",
-    "static/media/telegram.svg": "/portfolio/static/media/telegram.a2668c31463ca20dcc89b5058d9ff217.svg",
-    "static/media/todo.svg": "/portfolio/static/media/todo.da00f0b829b3cfcef873fef6a2097ec2.svg",
-    "main.42718f3f.css.map": "/portfolio/static/css/main.42718f3f.css.map",
-    "main.17eb4c1f.js.map": "/portfolio/static/js/main.17eb4c1f.js.map"
+    "main.9ac9101b.css.map": "/portfolio/static/css/main.9ac9101b.css.map",
+    "main.3541b368.js.map": "/portfolio/static/js/main.3541b368.js.map"
   },
   "entrypoints": [
-    "static/css/main.42718f3f.css",
-    "static/js/main.17eb4c1f.js"
+    "static/css/main.9ac9101b.css",
+    "static/js/main.3541b368.js"
   ]
 }
