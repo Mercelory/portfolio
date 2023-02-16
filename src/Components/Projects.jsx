@@ -22,7 +22,7 @@ export const Projects = () => {
               </div>
 
               <div data-aos="fade-down" data-aos-duration="1000">
-              <a  id = "to-do" href='https://mercelory.github.io/weather/' target="_blank" className={style.container} ><img className='w-24 md:w-48' src={todo}>
+              <a  id = "to-do" href='https://mercelory.github.io/to-do/' target="_blank" className={style.container} ><img className='w-24 md:w-48' src={todo}>
               </img>
               <div className='flex flex-col justify-center items-center text-center break-word'>
               <h1 className='font-bold text-center text-3xl mt-8'>To-do-app</h1>
