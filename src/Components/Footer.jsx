@@ -11,7 +11,7 @@ export const Footer = () => {
   const style = {
     footerCircles: `w-3 h-3 rounded-full bg-black/50 m-1 ease-in-out duration-300 
                     dark:bg-slate-200/25 
-                    hover:bg-blue-500/50 hover:scale-[1.5] hover:mx-2 hover:w-6`,
+                    hover:bg-blue-500/50 hover:scale-[1.5] hover:mx-2 md:hover:w-6 md:hover:h-3 hover:h-6`,
    footerCirclesActive: `bg-blue-500/50 scale-[1.5]`,
   }
 
