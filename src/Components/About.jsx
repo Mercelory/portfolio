@@ -15,7 +15,7 @@ export const About = () => {
           <div data-aos="fade-down" data-aos-duration="300">
             <a 
             href ={CV} 
-            download target="_blank" 
+            target="_blank" 
             className='text-4xl font-bold flex items-center mr-8'>
               <p 
               className='duration-300 ease-in-out 
@@ -51,7 +51,7 @@ export const About = () => {
               </div>
           </div>
         </div>
-      <h1 className='text-5xl mt-7 font-bold' data-aos="fade-down" data-aos-duration="1300">I'm Mercelory</h1>
+      <h1 className='text-5xl font-bold' data-aos="fade-down" data-aos-duration="1300">I'm Mercelory</h1>
       <p className='text-xl' data-aos="fade-down" data-aos-duration="1400"><Typewriter
   options={{
     strings: ['React developer', 'FrontEnd Developer'],
