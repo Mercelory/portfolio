@@ -66,7 +66,7 @@ export const About = () => {
                               md:w-1/5 md:flex-row'>
                 <div data-aos="fade-down" data-aos-duration="300">
                 <div className={style.container}>
-                  <p className='break-words'>My name is Dmitry, I am an active reactive developer. 
+                  <p className='break-words'>My name is Dmitry, I am an active REACT-Developer. 
                     I haven't had any commercial experience yet. In my portfolio I have 2 completed projects, 
                     and a lot of developments. I continue to develop more and more every day.</p>
                 </div>
